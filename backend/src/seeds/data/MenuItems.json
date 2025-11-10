@@ -1,0 +1,107 @@
+[
+  {
+    "label": "Kung Pao Chicken",
+    "cuisine": "CHINESE",
+    "ingredients": ["Chicken", "Peanuts", "Chili Sauce", "Garlic"],
+    "price": 280,
+    "availabilityInStock": 15
+  },
+  {
+    "label": "Veg Hakka Noodles",
+    "cuisine": "CHINESE",
+    "ingredients": ["Noodles", "Capsicum", "Carrot", "Soy Sauce"],
+    "price": 180,
+    "availabilityInStock": 25
+  },
+  {
+    "label": "Sweet and Sour Tofu",
+    "cuisine": "CHINESE",
+    "ingredients": ["Tofu", "Pineapple", "Vinegar", "Bell Pepper"],
+    "price": 220,
+    "availabilityInStock": 12
+  },
+  {
+    "label": "Kimchi Fried Rice",
+    "cuisine": "KOREAN",
+    "ingredients": ["Rice", "Kimchi", "Egg", "Soy Sauce"],
+    "price": 250,
+    "availabilityInStock": 10
+  },
+  {
+    "label": "Bibimbap",
+    "cuisine": "KOREAN",
+    "ingredients": ["Rice", "Carrots", "Spinach", "Gochujang Sauce"],
+    "price": 320,
+    "availabilityInStock": 8
+  },
+  {
+    "label": "Korean Fried Chicken",
+    "cuisine": "KOREAN",
+    "ingredients": ["Chicken", "Gochujang", "Garlic", "Honey"],
+    "price": 340,
+    "availabilityInStock": 20
+  },
+  {
+    "label": "Paneer Butter Masala",
+    "cuisine": "PUNJABI",
+    "ingredients": ["Paneer", "Tomato", "Butter", "Cream"],
+    "price": 260,
+    "availabilityInStock": 18
+  },
+  {
+    "label": "Amritsari Kulcha",
+    "cuisine": "PUNJABI",
+    "ingredients": ["Flour", "Potato", "Onion", "Spices"],
+    "price": 120,
+    "availabilityInStock": 30
+  },
+  {
+    "label": "Chole Bhature",
+    "cuisine": "PUNJABI",
+    "ingredients": ["Chickpeas", "Flour", "Spices", "Oil"],
+    "price": 200,
+    "availabilityInStock": 22
+  },
+  {
+    "label": "Sarson Da Saag",
+    "cuisine": "PUNJABI",
+    "ingredients": ["Mustard Leaves", "Spinach", "Butter", "Spices"],
+    "price": 180,
+    "availabilityInStock": 10
+  },
+  {
+    "label": "Masala Dosa",
+    "cuisine": "SOUTH INDIAN",
+    "ingredients": ["Rice Batter", "Potato", "Onion", "Curry Leaves"],
+    "price": 150,
+    "availabilityInStock": 25
+  },
+  {
+    "label": "Idli Sambar",
+    "cuisine": "SOUTH INDIAN",
+    "ingredients": ["Rice", "Lentils", "Tamarind", "Curry Leaves"],
+    "price": 100,
+    "availabilityInStock": 35
+  },
+  {
+    "label": "Chettinad Chicken Curry",
+    "cuisine": "SOUTH INDIAN",
+    "ingredients": ["Chicken", "Coconut", "Curry Leaves", "Pepper"],
+    "price": 300,
+    "availabilityInStock": 14
+  },
+  {
+    "label": "Appam with Stew",
+    "cuisine": "SOUTH INDIAN",
+    "ingredients": ["Rice Flour", "Coconut Milk", "Vegetables", "Spices"],
+    "price": 220,
+    "availabilityInStock": 16
+  },
+  {
+    "label": "Vegetable Biryani",
+    "cuisine": "SOUTH INDIAN",
+    "ingredients": ["Rice", "Carrot", "Beans", "Mint"],
+    "price": 240,
+    "availabilityInStock": 28
+  }
+]
