@@ -1,11 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Link, useLocation } from "react-router";
 
-import {
-  ChevronDownIcon,
-  GridIcon,
-  HorizontaLDots,
-} from "../icons";
+import { ChevronDownIcon, GridIcon, HorizontaLDots } from "../icons";
 import { useSidebar } from "../context/SidebarContext";
 type NavItem = {
   name: string;
@@ -18,7 +14,11 @@ const navItems: NavItem[] = [
   {
     icon: <GridIcon />,
     name: "Dashboard",
-    subItems: [{ name: "Orders", path: "/admin/orders?active=true" }],
+    subItems: [
+      { name: "Orders", path: "/app/orders?active=true" },
+      { name: "Menu", path: "/app/menu/:tableId" },
+      { name: "Cart", path: "/app/cart" },
+    ],
   },
 ];
 
@@ -237,7 +237,7 @@ const AppSidebar: React.FC = () => {
         <Link to="/">
           {isExpanded || isHovered || isMobileOpen ? (
             <>
-            {/* TODO check logo styles in various modes */}
+              {/* TODO check logo styles in various modes */}
               <img
                 className="dark:hidden"
                 src="/Smart-Serve-Logo.png"

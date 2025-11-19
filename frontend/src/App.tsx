@@ -6,6 +6,7 @@ import Blank from "./pages/Blank";
 import AppLayout from "./layout/AppLayout";
 import { ScrollToTop } from "./components/common/ScrollToTop";
 import Home from "./pages/Dashboard/Home";
+import Menu from "./pages/Dashboard/Menu";
 
 export default function App() {
   return (
@@ -19,6 +20,8 @@ export default function App() {
 
             {/* Others Page */}
             <Route path="/blank" element={<Blank />} />
+
+            <Route path="/app/menu/:tableId" element={<Menu />} />
 
             {/* Auth Layout */}
             <Route path="/signin" element={<SignIn />} />

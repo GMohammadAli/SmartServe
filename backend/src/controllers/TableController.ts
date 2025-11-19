@@ -9,7 +9,7 @@ import { Types } from "mongoose";
 const getMenuItems = async (_req: Request, res: Response) => {
   try {
     const menuItems: MenuItemDocument[] = await MenuItemModel.find({});
-    console.log({ menuItems });
+    // console.log({ menuItems });
     return res.status(200).json({
       success: true,
       data: menuItems,
@@ -26,7 +26,7 @@ const getMenuItems = async (_req: Request, res: Response) => {
 const getOrders = async (req: Request, res: Response) => {
   try {
     const orders: OrderDocument[] = await OrderModel.find({});
-    console.log({ orders });
+    // console.log({ orders });
     return res.status(200).json({
       success: true,
       data: orders,
